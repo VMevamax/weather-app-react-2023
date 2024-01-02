@@ -1,0 +1,64 @@
+.Weather {
+  border: 3px solid #e1caca;
+  color-scheme: light;
+  font-family: arial, sans-serif;
+  margin: 30px auto;
+  padding: 16px;
+  max-width: 600px;
+  border-radius: 4px;
+  color: rgb(46, 44, 44);
+  background-color: rgb(244, 237, 227);
+}
+
+.box {
+  border: 3px solid #d2cbcb;
+  color-scheme: light;
+  font-family: arial, sans-serif;
+  padding: 16px;
+  border-radius: 4px;
+  color: rgb(46, 44, 44);
+  background-color: rgb(247, 242, 236);
+}
+.city {
+  margin: 15px auto;
+  margin-top: 10px;
+}
+.github {
+  color: rgb(91, 71, 71);
+  font-size: 24px;
+  margin-top: 10px;
+  padding: 16px;
+}
+
+.Weather li {
+  list-style: none;
+  margin: 0;
+  margin-top: 0.8px;
+  padding: 0;
+  opacity: 0.7;
+}
+.Weather li:hover {
+  opacity: 1;
+}
+.Weather .temperature {
+  font-weight: bold;
+  color: rgb(33, 33, 33);
+  font-size: 44px;
+  line-height: 54px;
+  margin-left: 5px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.Weather canvas {
+  margin: 10px auto;
+}
+
+.Weather .unit {
+  color: rgb(33, 33, 33);
+  font-size: 26px;
+  font-weight: 500;
+  position: relative;
+}
+.Weather img {
+  width: auto;
+}
