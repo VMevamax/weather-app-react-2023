@@ -1,10 +1,11 @@
 import "./App.css";
 import Weather from "./Weather";
 import "bootstrap/dist/css/bootstrap.css";
+import axios from "axios";
 export default function App() {
   return (
     <div className="App">
-      <Weather />
+      <Weather defaultCity="Kyiv" />
       <footer>
         <a
           href="https://github.com/VMevamax/weather-app-react-2023"
