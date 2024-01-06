@@ -1,3 +1,9 @@
+body {
+  background-image: url("./weather-pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .Weather {
   border: 3px solid #e1caca;
   color-scheme: light;
@@ -25,9 +31,10 @@
 }
 .github {
   color: rgb(91, 71, 71);
-  font-size: 24px;
+  font-size: 14px;
   margin-top: 10px;
   padding: 16px;
+  opacity: 100%;
 }
 
 .Weather li {
