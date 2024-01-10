@@ -1,7 +1,8 @@
+import React from "react";
 import "./App.css";
 import Weather from "./Weather";
 import "bootstrap/dist/css/bootstrap.css";
-import axios from "axios";
+
 export default function App() {
   return (
     <div className="App">

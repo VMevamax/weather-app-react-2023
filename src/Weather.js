@@ -6,7 +6,6 @@ import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
 
 export default function Weather(props) {
-  const [ready, setReady] = useState(false);
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
   function handleResponse(response) {
