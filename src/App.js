@@ -8,12 +8,16 @@ export default function App() {
     <div className="App">
       <Weather defaultCity="Kyiv" />
       <footer>
-        <a
-          href="https://github.com/VMevamax/weather-app-react-2023"
-          target="blank"
-        >
-          <div className="github">VM GitHub</div>
-        </a>
+        <div className="github">
+          Open-sourse project hosted on GitHub{" "}
+          <a
+            href="https://github.com/VMevamax/weather-app-react-2023"
+            target="blank"
+          >
+            {" "}
+            VM GitHub
+          </a>
+        </div>
       </footer>
     </div>
   );

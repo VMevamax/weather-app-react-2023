@@ -3,6 +3,8 @@
   margin: 50px auto;
 }
 footer {
-  background-color: rgb(232, 234, 229);
-  opacity: 70%;
+ background: transparent;
+  backdrop-filter: blur(10px);
+  box-shadow: var(--box-shadow-custom);
+  border-radius: 10px;
 }
