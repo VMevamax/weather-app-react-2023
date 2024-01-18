@@ -5,6 +5,8 @@ import "./Weather.css";
 import "bootstrap/dist/css/bootstrap.css";
 import axios from "axios";
 
+
+
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setCity] = useState(props.defaultCity);
@@ -14,6 +16,7 @@ export default function Weather(props) {
       ready: true,
       city: response.data.city,
       country: response.data.country,
+      coordinates: response.data.coordinates,
       temperature: response.data.temperature.current,
       feels: response.data.temperature.feels_like,
       wind: response.data.wind.speed,
@@ -71,6 +74,7 @@ export default function Weather(props) {
         </div>
 
         <WeatherInfo data={weatherData} />
+       
       </div>
     );
   } else {
